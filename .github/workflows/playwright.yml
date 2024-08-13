@@ -4,6 +4,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:    
 jobs:
   E2E-test:
     timeout-minutes: 60
